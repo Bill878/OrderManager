@@ -30,15 +30,7 @@
 
 # How to Run
 
-1. Open a terminal in the project folder.
-2. Compile the Java files:
-   ```bash
-   javac -d bin src/**/*.java
-```
-3. Run the program:
-   ```bash
-   java -cp bin your.main.ClassName
-
+1. Run the Amazon.jar file.
 
 # Author
 - Bill Ren
