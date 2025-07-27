@@ -29,7 +29,7 @@
 
 
 # How to Run
-1. Run the "Amazon" executable JAR file.
+1. Download the raw "Amazon" JAR file.
 2. Use Username: "1", Password: "1" for Customer, alternative Username: "3", Password: "3"
 3. Use Username: "2", Password: "2" for Manager, alternative Username: "admin", Password: "admin"
 
