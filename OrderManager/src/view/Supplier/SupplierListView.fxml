@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox alignment="CENTER" styleClass="background" prefWidth="600.0" spacing="20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Supplier.SupplierListController">
+<ImageView preserveRatio="true" fitWidth="600">
+    <image>
+        <Image url="/image/supplier.png"/>
+    </image>
+</ImageView>
+
+<Separator/>
+    <Label text="Select a supplier"/>
+<Separator/>
+<ListView fx:id="suppliersLv" />
+
+<HBox styleClass="hbox">
+    <Button text="Shop" fx:id="shopBtn" disable="true" prefWidth="300" onAction="#handleShop"/>
+    <Button text="Close" prefWidth="300" onAction="#close"/>
+</HBox>
+
+
+<stylesheets>
+    <URL value="@../style.css"/>
+</stylesheets>
+
+</VBox>
